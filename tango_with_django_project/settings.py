@@ -106,6 +106,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+#Login
+
+LOGIN_URL='rango:login'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
