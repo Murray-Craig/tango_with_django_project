@@ -110,6 +110,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LOGIN_URL='rango:login'
 
+#Sessions
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE=True
+
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
